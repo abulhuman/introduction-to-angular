@@ -29,18 +29,19 @@ export class AppComponent {
       laundry: true,
     },
     {
-      name: 'Warm Beds Housing Support',
-      city: 'Juneau',
-      state: 'AK',
-      photo: '../assets/housing-3.jpg',
+      name: "Warm Beds Housing Support",
+      city: "Juneau",
+      state: "AK",
+      photo: "../assets/housing-3.jpg",
       availableUnits: 1,
       wifi: false,
       laundry: false,
-    },
+    }
   ];
 
   selectedLocation: HousingLocation | undefined;
 
   updateSelectedLocation(location: HousingLocation) {
-    this.selectedLocation = location; } searchHousingLocations() {}
+    this.selectedLocation = location;
+  }
 }
